@@ -66,9 +66,9 @@ section {
     border: none;
     width: 14em;
     /* Convertido para em aumenta o tamanho da fonte por tabela*/
-    height: 3em;e
+    height: 3em;
     /* Convertido para em */
-    align-content: center;
+    align-items: center;
 
 }
 
@@ -86,8 +86,8 @@ section {
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background: url('img/flor.png') top right no-repeat,
-        url('img/flor-esquerda.png') bottom left no-repeat;
+    background: url('img/1-removebg-preview.png') top right no-repeat,
+        url('img/2.png') bottom left no-repeat;
     background-size: 180px 180px;
     /* Ajuste o tamanho conforme necessário */
 }
@@ -100,7 +100,6 @@ section {
     z-index: 1;
     /* Garante que o conteúdo fica acima das imagens do background */
 }
-
 
 h2 {
     font-family: 'Lemon', serif;
@@ -115,12 +114,12 @@ h2 {
 }
 
 .fundo-galeria {
-    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
+    background: url('img/1-removebg-preview.png') bottom right no-repeat;
     background-size: 180px 180px;
 }
 
 #contato {
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/funfo1111.jpg');
     background-size: cover;
     padding: 4rem 0;
     /* Espaçamento interno para a seção de contato */
@@ -136,6 +135,8 @@ h2 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     /* Sombra suave para destacar o formulário */
     font-weight: bold;
+    text-align: center;
+    
 }
 
 .formulario button {
@@ -152,3 +153,24 @@ h2 {
 .nav-img{
     width: 25rem;
 }
+
+.formulario button:hover{
+    background-color: #3e7927;
+}
+
+.p-2{
+    color: #ffffff;
+}
+
+.finaltexto1:hover{
+    color: #ffffff;
+}
+
+.finaltexto2{
+    color: #ffffff;
+}
+
+.nav-link:hover{
+    color: #ffffff;
+}
+
