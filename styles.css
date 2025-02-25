@@ -152,6 +152,7 @@ h2 {
 
 .nav-img{
     width: 25rem;
+    margin: -30px;
 }
 
 .formulario button:hover{
@@ -160,6 +161,8 @@ h2 {
 
 .p-2{
     color: #ffffff;
+    width: 50%;
+    margin: 0px 25%;
 }
 
 .finaltexto1:hover{
@@ -174,3 +177,45 @@ h2 {
     color: #ffffff;
 }
 
+.nav-link{
+    font-size: 2.2rem;
+    margin-left: 20px;
+}
+
+.container-principal{
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+
+#book-coffee{
+    width: 100%;
+}
+
+.secao-tropicalia{
+    width: 100%;
+}
+
+.col-5{
+    width: 100%;
+    align-items: center;
+}
+
+.col-5 h2{
+    text-align: center;
+}
+
+.col-5 p{
+    width: 50%;
+}
+
+#aumentar-fonte{
+    background-color: #3e7927;
+    border: #0d3012 1px solid;
+}
+
+#diminuir-fonte{
+    background-color: #3e7927;
+    border: #0d3012 1px solid;
+}
