@@ -7,7 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <title>Book&Coffee</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -15,19 +16,26 @@
     <header class=" p-5">
 
         <nav class="container d-flex justify-content-between align-items-center">
-            <img src="img/logoatual.png" alt="Logotipo da Book&Coofee, um livro aberto com uma borboleta em cima com as asas abertas e abaixo escrito o nome do site." class="nav-img " loading="lazy">
+            <img src="img/logoatual.png"
+                alt="Logotipo da Book&Coofee, um livro aberto com uma borboleta em cima com as asas abertas e abaixo escrito o nome do site." 
+                title="Logotipo da Book&Coofee, um livro aberto com uma borboleta em cima com as asas abertas e abaixo escrito o nome do site."
+                class="nav-img " loading="lazy">
             <ul class="nav mt-5">
                 <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
                 <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
                 <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
-            </ul> 
-            
-            <div id="acessibilidade">
-                <button id="aumentar-fonte" class="btn btn-primary fw-bold" >A+</button>
-                <button id="diminuir-fonte" class="btn btn-primary fw-bold" >A-</button>
+            </ul>
+
+            <div id="acessibilidade" class="menu-acessibilidade">
+                <button id="botao-acessibilidade" class="btn btn-primary rotacao-botao fw-bold">Acessibilidade</button>
+                <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
+                    <button id="aumentar-fonte" class="btn btn-primary fw-bold">A+</button>
+                    <button id="diminuir-fonte" class="btn btn-primary fw-bold">A-</button>
+                </div>
+
             </div>
         </nav>
-       
+
     </header>
 
 
@@ -37,10 +45,10 @@
             <div class="inicio-fundo d-flex justify-content-between align-items-center">
                 <div class="esquerda-conteudo">
                     <h1 class="display-4 text-white fst-italic fw-bold">Boas-vindas a</h1>
-                    <img src="img/book__coffee-removebg-preview.png" alt="Logotipo secundário da Book&Coffee que é só a sua escrita em verde." class="mb-3" width="950"
-                        height="278" loading="lazy" aling="center">
-                    <a href="#BOOK&COFFEE"
-                        class="btn btn-primary btn-lg botao-inicio fw-semibold">Quero
+                    <img src="img/book__coffee-removebg-preview.png"
+                        alt="Logotipo secundário da Book&Coffee que é só a sua escrita em verde." title="Logotipo secundário da Book&Coffee que é só a sua escrita em verde." class="mb-3"
+                        width="950" height="278" loading="lazy" aling="center">
+                    <a href="#BOOK&COFFEE" class="btn btn-primary btn-lg botao-inicio fw-semibold">Quero
                         conhecer!</a>
                 </div>
 
@@ -49,13 +57,18 @@
 
         <section id="book-coffee" class="my-5 pt-6 secao-tropicalia">
             <div class="container-principal">
-                  <div class="col-5">
+                <div class="col-5">
                     <h2>O que é a Book&Coffee?</h2>
-                    <p class="p-2">Localizada no coração da cidade a biblioteca Book&Coffee traz para o mercado o que há de melhor para seu conhecimento e entretenimento. Fundada em 2022, biblioteca Book&Coffee já é destaque na cidade e conquista novos leitores a cada dia.</p>
+                    <p class="p-2">Localizada no coração da cidade a biblioteca Book&Coffee traz para o mercado o que há
+                        de melhor para seu conhecimento e entretenimento. Fundada em 2022, biblioteca Book&Coffee já é
+                        destaque na cidade e conquista novos leitores a cada dia.</p>
 
-                        <p class="p-2">Nossa missão é: "Proporcionar conhecimento e um lugar confortável aos nossos queridos leitores".</p>
-                        
-                        <p class="p-2">Oferecemos pessoas experientes e antenadas aos acontecimentos no mundo dos livros. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação aos nossos clientes leitores.</p>
+                    <p class="p-2">Nossa missão é: "Proporcionar conhecimento e um lugar confortável aos nossos queridos
+                        leitores".</p>
+
+                    <p class="p-2">Oferecemos pessoas experientes e antenadas aos acontecimentos no mundo dos livros. O
+                        atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação aos
+                        nossos clientes leitores.</p>
                 </div>
             </div>
         </section>
@@ -66,12 +79,10 @@
 
                 <div class="row justify-content-md-center">
                     <div class="col-md-4">
-                        <img src="img/veritysemfume.png"
-                            class="img-fluid rounded-5" loading="lazy">
+                        <img src="img/veritysemfume.png" alt="Foto do livro Verity da Collen Hoover" title="Foto do livro Verity da Collen Hoover" class="img-fluid rounded-5" loading="lazy" >
                     </div>
                     <div class="col-md-4">
-                        <img src="img/casa_de_segredos-removebg-preview.png" class="img-fluid rounded-5"
-                            loading="lazy">
+                        <img src="img/casa_de_segredos-removebg-preview.png" alt="Capa do livro casa de segredos" title="Capa do livro casa de segredos" class="img-fluid rounded-5" loading="lazy">
                     </div>
                 </div>
             </div>
